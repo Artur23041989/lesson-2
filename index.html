@@ -3,11 +3,24 @@
 <html lang="ru">
     <head>
         <title>Главная страница</title>
+        <style>
+            td, th {
+            border: solid 1px black;
+            }
+            th {
+                color: red;
+            }
+            table {
+                border-collapse: collapse;
+                width: 50%;
+            }
+        </style>
     </head>
 
     <body>
         <h1>Мой первый сайт!</h1>
-
+        <a href="#table-1"><img src="img/1696512287_papik-pro-p-arti-drakoni-13.jpg" alt="Мой дракон" width="200px" height="200px"/>
+        </a>
         <p>Новый абзац</p>
         <b>Жирный текст</b>
         <p>
@@ -28,7 +41,7 @@
         <li>Lumia 950</li>
         <li>Siemens</li>
     </ol>
-
+    
     <h2>Ненумерованный список</h2>
     <!--Комментарий не читается браузером-->
     
@@ -43,6 +56,70 @@
             <li>Siemens</li>
         </ul>
     </details>
-    </body>
 
+    <img src="img/1696512287_papik-pro-p-arti-drakoni-13.jpg" alt="Мой дракон" width="200px" height="200px"/>
+    
+    <table style="border: solid 1px black;">
+       <thead>
+        <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Телефон</th>
+        </tr>
+       </thead>
+       <tbody>
+        
+        <tr>
+            <td>Михаил</td>
+            <td>Петров</td>
+            <td>89993456789</td>
+        </tr>
+        
+        <tr>
+            <td>Сергей</td>
+            <td>Крутов</td>
+            <td>89456789944</td>
+        </tr>
+        
+        <tr>
+            <td>Антон</td>
+            <td>Кучеров</td>
+            <td>89535558282</td>
+        </tr>
+       </tbody>
+    </table>
+
+    <p>
+    <table id="table-1" class="table-1">
+        <thead>
+         <tr>
+             <th>Имя</th>
+             <th>Фамилия</th>
+             <th>Телефон</th>
+         </tr>
+        </thead>
+        <tbody>
+         
+         <tr>
+             <td>Михаил</td>
+             <td>Петров</td>
+             <td>89993456789</td>
+         </tr>
+         
+         <tr>
+             <td>Сергей</td>
+             <td>Крутов</td>
+             <td>89456789944</td>
+         </tr>
+         
+         <tr>
+             <td>Антон</td>
+             <td>Кучеров</td>
+             <td>89535558282</td>
+         </tr>
+        </tbody>
+     </table>
+    </p>
+    
+</body>
 </html>
