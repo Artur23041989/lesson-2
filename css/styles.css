@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.main-title{
+    font-size: 30px;
+    color: #da1010;
+}
+
+.main-img{
+    width: 200px;
+    height: 150px;
+}
+
+.main-text{
+    font-size: 20px;
+    color: #780578;
+}
+
+.container >p{
+    color: blue;
+}
